@@ -1,0 +1,155 @@
+body {
+    background:linear-gradient(to left,pink,purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 20mm;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 4px 3px black;
+}
+
+h2 {
+    font-size: 15mm;
+    margin-left: 10mm;
+    color: white;
+    text-shadow: 4px 5px 3px black;
+}
+ul {
+    font-size: 8mm;
+    margin-left: 10mm;
+    color: white;
+    text-shadow: 4px 5px 3px black;
+}
+
+ol {
+    font-size: 8mm;
+    margin-left: 10mm;
+    color: white;
+    text-shadow: 4px 5px 3px black;
+}
+
+li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#alita {
+    width: 800px;
+    display: block;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+}
+
+#avatar {
+    width: 400px;
+    display: block;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+}
+
+#doctor_strange {
+    width: 400px;
+    display: block;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+}
+
+#wednesday {
+    width: 400px;
+    display: block;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+}
+
+#stranger_things {
+    width: 800px;
+    display: block;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+}
+
+#sherlock {
+    width: 400px;
+    display: block;
+    margin-top: 5mm;
+    margin-bottom: 5mm;
+}
+
+#profile_name {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    position:absolute;
+    right: 17mm;
+    bottom: 54mm;
+    background-color: black;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#back_to_top {
+    font-size: 7mm;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    text-underline-offset: 100px;
+    position: absolute;
+    right: 175mm;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#profile_picture {
+    position: absolute;
+    width: 250px;
+    outline-color: white;
+    right: 0mm;
+    top: 47mm;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+.fa-youtube {
+    color: red;
+    font-size: 50px;
+    position: relative;
+    left: 590px;
+}
+
+.fa-facebook {
+    color: blue;
+    font-size: 50px;
+    position: relative;
+    left: 640px;
+}
+
+.fa-instagram {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    left: 690px;
+}
+
+.fa-twitter {
+    color: rgb(0, 157, 255);
+    font-size: 50px;
+    position: relative;
+    left: 740px;
+}
+
+#back_to_top:hover {
+    background-color: black;
+    color: white;
+}

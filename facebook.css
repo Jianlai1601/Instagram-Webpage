@@ -1,0 +1,128 @@
+body {
+    background-color: lightgray;
+    margin: 0px;
+}
+
+.mainBox {
+    margin-top: 1%;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-top: 10px;
+    background-color: white;
+    width: 34%;
+    height: 660px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.subBox {
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-left: 33%;
+    margin-right: 33%;
+    color: gray;
+    position: relative;
+    left: -10%;
+}
+
+input.string {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    width: 275px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+input.string:hover {
+    display requiredField:block;
+}
+
+.checkBox {
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 33%;
+    margin-right: 33%;
+    color: gray;
+    position: relative;
+    left: -10%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+label {
+    font-size: 17px;
+    display: block;
+}
+
+.requiredField {
+    color: red;
+    display: none;
+}
+
+#cutline {
+    border-bottom: 1px solid lightgray;
+    width: 70%;
+    position: relative;
+    left: 80px;
+    margin-top: 10px
+}
+
+.button1 {
+    margin-top: 40px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    left: 110px;
+    border: none;
+    border-radius: 150px;
+    background-color: rgb(36, 160, 249);
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: rgb(63, 169, 245);
+}
+
+.button2 {
+    margin-top: 25px;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    left: 110px;
+    border: none;
+    border-radius: 150px;
+    background-color: rgb(2, 216, 48);
+    cursor: pointer;
+}
+
+.forget {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#forget {
+    color: rgb(36, 160, 249);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
